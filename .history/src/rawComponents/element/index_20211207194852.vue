@@ -10,7 +10,6 @@
     <lc-layout lc_id="SBCyi1cZac"></lc-layout>
     <lc-container lc_id="ZyKgG7bSXm"></lc-container>
     <lc-final></lc-final>
-    <lc-list></lc-list>
   </div>
 </template>
 <script>
@@ -24,7 +23,6 @@ import formBase from "./form-base";
 import dialog from "./dialog";
 import image from "./image";
 import final from "./final";
-import list from "./list";
 
 import { deepLCEle } from "@/utils/initRawComponent";
 
@@ -52,7 +50,6 @@ export default {
     "lc-dialog": dialog,
     "lc-image": image,
     "lc-final": final,
-    "lc-list": list,
   },
 };
 </script>

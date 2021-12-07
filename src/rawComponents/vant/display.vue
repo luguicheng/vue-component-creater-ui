@@ -39,7 +39,7 @@
           <div lc_id="PlS2ExVWhS">
               <div class="demonstration" lc_id="QfAN97i96n">List 列表:</div>
               <van-list v-model="loading" :finished="finished" lc-mark finished-text="没有更多了" @load="onLoad" lc_id="sU8RIzXdxk">
-                  <van-cell v-for="item in list" :key="item" :title="item" lc_id="RirHKyqpY5"></van-cell>
+                  <van-cell v-for="item in list2" :key="item" :title="item" lc_id="RirHKyqpY5"></van-cell>
               </van-list>
           </div>
           <div lc_id="/0en3vywfE">
@@ -98,7 +98,7 @@ export default {
       },
       activeNames: ["1"],
       time: 30 * 60 * 60 * 1000,
-      list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+      list2: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
       loading: false,
       finished: false,
       active: 1,
