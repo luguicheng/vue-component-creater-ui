@@ -40,7 +40,7 @@
       </el-tooltip>
       <el-tooltip effect="dark" content="清空当前编辑内容" placement="top-start">
         <el-popconfirm confirmButtonText="确认" cancelButtonText="点错了" icon="el-icon-info" iconColor="red"
-          title="点我将清空所有编辑的内容, 确认吗?" @onConfirm="clear">
+          title="点我将清空所有编辑的内容, 确认吗?" @confirm="clear">
           <img slot="reference" class="round-icon" :src="iconClear" alt="">
         </el-popconfirm>
       </el-tooltip>

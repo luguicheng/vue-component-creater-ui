@@ -1,16 +1,17 @@
 <template lc_id="RBFHni4iTs">
   <div lc_id="v91WiYWqPM" class="element-class">
-    <lc-button lc_id="pclmcAeMlS"></lc-button>
-    <lc-table lc_id="pclmcAeMlS"></lc-table>
-    <lc-form lc_id="ZyKgG7bSXm"></lc-form>
+    <lc-button></lc-button>
+    <lc-table></lc-table>
+    <lc-form></lc-form>
     <lc-image></lc-image>
     <lc-form-base></lc-form-base>
     <lc-dialog></lc-dialog>
-    <lc-icon lc_id="v31NGzWvBh"></lc-icon>
-    <lc-layout lc_id="SBCyi1cZac"></lc-layout>
-    <lc-container lc_id="ZyKgG7bSXm"></lc-container>
+    <lc-icon></lc-icon>
+    <lc-layout></lc-layout>
+    <lc-container></lc-container>
     <lc-final></lc-final>
     <lc-list></lc-list>
+    <lc-sticky-footer></lc-sticky-footer>
   </div>
 </template>
 <script>
@@ -25,6 +26,7 @@ import dialog from "./dialog";
 import image from "./image";
 import final from "./final";
 import list from "./list";
+import stickyFooter from "./sticky-footer";
 
 import { deepLCEle } from "@/utils/initRawComponent";
 
@@ -33,10 +35,10 @@ export default {
     return {};
   },
   mounted() {
-    this.$emit('mounted');
+    this.$emit("mounted");
     // 对所有拥有lc-mark的元素进行初始化
     let countComponentCount = 0;
-    deepLCEle(document.querySelector('.element-class'), () => {
+    deepLCEle(document.querySelector(".element-class"), () => {
       countComponentCount++;
     });
   },
@@ -53,11 +55,11 @@ export default {
     "lc-image": image,
     "lc-final": final,
     "lc-list": list,
+    'lc-sticky-footer': stickyFooter
   },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
 <style>
 .demonstration-element {
   font-size: 12px;

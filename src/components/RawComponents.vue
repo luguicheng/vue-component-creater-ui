@@ -118,8 +118,14 @@ export default {
       });
     },
 
-    handleSelect(item) {
-      this.scrollTo(item);
+    handleSelect(target) {
+      const index = this.currentSelectBrand.titleArray.findIndex(
+        (item) => item.element === target.element
+      );
+      if (index !== -1) {
+        this.currentSelectBrand.selectIndex = index;
+        this.scrollTo(target);
+      }
     },
 
     handleCommand(command) {

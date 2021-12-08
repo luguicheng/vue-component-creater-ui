@@ -103,6 +103,15 @@
                   </el-descriptions-item>
                   <el-descriptions-item label="联系地址" lc_id="OoN2WiOmV9">江苏省苏州市吴中区吴中大道 1188 号</el-descriptions-item>
               </el-descriptions>
+              <el-descriptions title="用户信息" lc-mark :column="1" border lc_id="oGYoA2wj3H">
+                  <el-descriptions-item label="用户名" lc_id="raQuxdqRgg">kooriookami</el-descriptions-item>
+                  <el-descriptions-item label="手机号" lc_id="5WrahKcIHA">18100000000</el-descriptions-item>
+                  <el-descriptions-item label="居住地" lc_id="foC9/7JaQo">苏州市</el-descriptions-item>
+                  <el-descriptions-item label="备注" lc_id="tRwt7TcKom">
+                      <el-tag size="small" lc_id="FPyU4WX/6m">学校</el-tag>
+                  </el-descriptions-item>
+                  <el-descriptions-item label="联系地址" lc_id="dioSjT5jxS">江苏省苏州市吴中区吴中大道 1188 号</el-descriptions-item>
+              </el-descriptions>
               <el-descriptions title="垂直带边框列表" direction="vertical" :column="4" border lc-mark lc_id="szloMrlo+J">
 >                  <el-descriptions-item label="用户名" lc_id="eiu+5s736W">kooriookami</el-descriptions-item>
                   <el-descriptions-item label="手机号" lc_id="5jN1FMg0JM">18100000000</el-descriptions-item>
@@ -135,9 +144,7 @@ export default {
           { required: true, message: "请输入活动名称", trigger: "blur" },
           { min: 3, max: 5, message: "长度在 3 到 5 个字符", trigger: "blur" },
         ],
-        region: [
-          { required: true, message: "请选择活动区域", trigger: "change" },
-        ],
+        region: [{ required: true, message: "请选择活动区域", trigger: "change" }],
         date1: [
           {
             type: "date",
@@ -162,9 +169,7 @@ export default {
             trigger: "change",
           },
         ],
-        resource: [
-          { required: true, message: "请选择活动资源", trigger: "change" },
-        ],
+        resource: [{ required: true, message: "请选择活动资源", trigger: "change" }],
         desc: [{ required: true, message: "请填写活动形式", trigger: "blur" }],
       },
       formInline: {

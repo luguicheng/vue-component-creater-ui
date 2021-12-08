@@ -1,9 +1,9 @@
 /**
  *  这个文件主要用于将结构渲染出来，并提供一些辅助的能力
- * 
+ *
  *  这个过程的核心可以简化为：
- *      结构 -> vue代码 -> html 
- * 
+ *      结构 -> vue代码 -> html
+ *
  */
 import { parseComponent } from 'vue-template-compiler/browser';
 import { merge, insertPresetAttribute, getSplitTag, replaceRowID, updateLinkTree, findCodeElemNode, findRawVueInfo, removeAllID } from "@/utils/forCode";
@@ -33,7 +33,7 @@ export class MainPanelProvider {
 
     /**
      * 对内渲染
-     * @param {*} rawDataStructure 
+     * @param {*} rawDataStructure
      */
     _render(rawDataStructure) {
         this._rawDataStructure = rawDataStructure;
@@ -89,9 +89,9 @@ export class MainPanelProvider {
 
     /**
      * 对外渲染函数：将一个指定的数据结构渲染出来，并会保存这次的渲染记录
-     * @param {*} rawDataStructure 
+     * @param {*} rawDataStructure
      */
-    render(rawDataStructure) {
+  render (rawDataStructure) {
         this._render(rawDataStructure);
         return this;
     }
@@ -195,8 +195,8 @@ export class MainPanelProvider {
 
     /**
      * 这个方法会返回节点所对应的代码结构
-     * @param {*} realNode 
-     * @returns 
+     * @param {*} realNode
+     * @returns
      */
     markElementInner(realNode) {
         realNode.classList.add("mark-element");
@@ -215,7 +215,7 @@ export class MainPanelProvider {
 
     /**
      * 设置新组建要放入的位置与对象
-     * @param {*} index 
+     * @param {*} index
      */
     setDropInfo(dropInfo) {
         this.currentPointDropInfo = dropInfo;
@@ -294,7 +294,7 @@ export class MainPanelProvider {
 
     /**
      * 将数据拍平，以id: data 的方式联结
-     * @param {*} rawDataStructure 
+     * @param {*} rawDataStructure
      */
     flatDataStructure(rawDataStructure) {
         updateLinkTree(rawDataStructure);
@@ -310,7 +310,7 @@ export class MainPanelProvider {
 
     /**
      * 当根节点挂载后
-     * @param {*} callback 
+     * @param {*} callback
      */
     onRootElementMounted(callback) {
         this.subscribeEventListener("mounted", callback);
@@ -320,7 +320,7 @@ export class MainPanelProvider {
 
     /**
      * 当Vue代码生成后
-     * @param {*} callback 
+     * @param {*} callback
      */
     onCodeCreated(callback) {
         this.subscribeEventListener("codeCreated", callback);
@@ -330,7 +330,7 @@ export class MainPanelProvider {
 
     /**
      * 当代码结构更新后
-     * @param {*} callback 
+     * @param {*} callback
      */
     onCodeStructureUpdated(callback) {
         this.subscribeEventListener("codeStructureUpdated", callback);
@@ -339,7 +339,7 @@ export class MainPanelProvider {
 
     /**
      * 当代码合并完成后
-     * @param {*} callback 
+     * @param {*} callback
      */
     onMerged(callback) {
         this.subscribeEventListener("onMerged", callback);
@@ -348,7 +348,7 @@ export class MainPanelProvider {
 
     /**
      * 当节点删除后
-     * @param {*} callback 
+     * @param {*} callback
      */
     onNodeDeleted(callback) {
         this.subscribeEventListener("onNodeDeleted", callback);
@@ -365,8 +365,8 @@ export class MainPanelProvider {
 
     /**
      * 保存属性
-     * @param {*} resultList 
-     * @param {*} rawInfo 
+     * @param {*} resultList
+     * @param {*} rawInfo
      */
     saveAttribute(resultList, lc_id) {
         const param = resultList;
@@ -419,7 +419,7 @@ export class MainPanelProvider {
 
     /**
      * 移除一个节点
-     * @param {*} lc_id 
+     * @param {*} lc_id
      */
     remove(lc_id, backup = true) {
         let removeNodes = null;
@@ -460,7 +460,7 @@ export class MainPanelProvider {
     /**
      * 事件订阅
      * @param {*} event -> mounted:当新的根节点被挂载 | selected:选择了某个节点 | codeCreated:生成了代码 | codeStructureUpdated:代码结构更新
-     * @param {*} listener 
+     * @param {*} listener
      */
     subscribeEventListener(event, listener) {
         this.eventEmitter.on(event, listener);

@@ -18,6 +18,18 @@
               <el-button lc-mark type="warning" plain lc_id="1nay6UmyQn">警告按钮</el-button>
               <el-button lc-mark type="danger" plain lc_id="4dXLsK63dR">危险按钮</el-button>
           </div>
+          <div lc_id="160jDABRTi">
+              <div class="demonstration-element" lc_id="hyfsqsxCnz">Button 带图标按钮</div>
+              <el-button lc-mark type="primary" icon="el-icon-search" lc_id="UsljIZqoIu">搜索</el-button>
+              <el-button lc-mark type="success" lc_id="n7T1SuiCBd">
+搜索                  <i class="el-icon-search" lc_id="JKAgp47JOz"></i>
+              </el-button>
+              <el-button lc-mark type="primary" icon="el-icon-search" lc_id="3tNIzZde+K"></el-button>
+              <el-button lc-mark type="text" icon="el-icon-search" lc_id="NKaJ8DlfD8">搜索</el-button>
+              <el-button lc-mark type="text" lc_id="PrKw//ojpT">
+搜索                  <i class="el-icon-search" lc_id="FjP9dVt3/+"></i>
+              </el-button>
+          </div>
           <div lc_id="BrDirV0DiW">
               <div class="demonstration-element" lc_id="Ibx7/Oljm1">Button 圆角按钮</div>
               <el-button lc-mark round lc_id="vnhZCSYTKi">圆角按钮</el-button>
@@ -66,7 +78,7 @@
               <i class="icon el-icon-video-camera-solid" lc-mark lc_id="/k6h8zYM65"></i>
               <i class="icon el-icon-message-solid" lc-mark lc_id="blqIQB6Vhj"></i>
               <i class="icon el-icon-s-data" lc-mark lc_id="gbq6whZDAm"></i>
-              <el-link href="https://element.eleme.cn/#/zh-CN/component/icon" style="margin-left: 10px;" class="el-icon-d-arrow-right" type="info" target="_blank" lc_id="t+j3VEq1No">查看所有图标</el-link>
+              <el-link href="https://element.eleme.cn/#/zh-CN/component/icon" style="margin-left: 10px" class="el-icon-d-arrow-right" type="info" target="_blank" lc_id="t+j3VEq1No">查看所有图标</el-link>
           </div>
           <div lc_id="D9dpNStd1t">
               <div class="demonstration-element" lc_id="MPmrgZvo8q">Link 文字链接</div>

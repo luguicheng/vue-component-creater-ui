@@ -1,61 +1,64 @@
-  <template lc_id="KCiR9cYJ8Pxx">
-      <div lc_id="Quld4HtbiZxx">
-          <div lc_id="JpTYTNBzEexx">
-              <div class="demonstration-element" lc_id="5yst4mGOlisttext">List 列表</div>
-              <template lc_id="listQ3pyBv0yQLlisttext">
-                  <div class="list" lc_id="listQ3pyBv0yQxxLlisttext" lc-mark>
-                      <ul lc_id="listQ3pyBv0yQLlistul" class="list" style="margin: 0">
-                          <li v-for="item in list" :key="item" :lc_id="'listQ3pyBv0yQLlist' + item" lc_id="kFyp5H+3p2" class="list-li" style="line-height: 2em">{{ item }}</li>
+  <template lc_id="9AxddfDA7g">
+      <div lc_id="Rtw7v5lsjY">
+          <div lc_id="lik26TScTd">
+              <div class="demonstration-element" lc_id="x71mVpCQ2k">List 列表</div>
+              <template lc_id="jSQayLJhNZ">
+                  <div class="list" lc-mark lc_id="S3c05a+Tsw">
+                      <ul class="list" style="margin: 0" lc_id="yNnraJVQo1">
+                          <li v-for="item in list" :key="item" class="list-li" style="line-height: 2em" lc_id="5ePhoxNr4t">
+                              <span class="title" lc_id="zyqZeIgY+X">{{ item }}</span>
+                              <span class="list-item-right" lc_id="ck0TqDEoC8">2021-12-8</span>
+                          </li>
                       </ul>
                   </div>
               </template>
-              <div class="demonstration-element" lc_id="5yst4mGOV4listcard">ListCard 列表</div>
-              <template lc_id="SPvwLb3Rsalistcard">
-                  <div class="list-card" lc_id="ytUyoI+qdElistcard" lc-mark>
-                      <ul lc_id="clG9pVvHjklistcard" style="padding: 0; margin: 0">
-                          <li v-for="item in listCard" :key="item.id" class="list-card-item" lc_id="bWqL4Fy2iOlistcard">
-                              <el-image class="list-card-item-image" :src="item.imgUrl" fit="cover" lc_id="jkmVAKQxrQlistcard" lazy></el-image>
-                              <div class="item-right" lc_id="zBsMNOzclQlistcard">
-                                  <div class="item-title" lc_id="crveS3Cffxlistcard">{{ item.title }}</div>
-                                  <div class="item-desc" lc_id="2Ou2t/99v3listcard">{{ item.desc }}</div>
+              <div class="demonstration-element" lc_id="uwKd6KAgkI">ListCard 列表</div>
+              <template lc_id="26y1Joc5FJ">
+                  <div class="list-card" lc-mark lc_id="r8iywF6aLb">
+                      <ul style="padding: 0; margin: 0" lc_id="gZZkpdJkm+">
+                          <li v-for="item in listCard" :key="item.id" class="list-card-item" lc_id="3E7Mhl20Wm">
+                              <el-image class="list-card-item-image" :src="item.imgUrl" fit="cover" lazy lc_id="5oKojPX/VO"></el-image>
+                              <div class="item-right" lc_id="lqfwhC73AZ">
+                                  <div class="item-title" lc_id="Y/q9s5axHA">{{ item.title }}</div>
+                                  <div class="item-desc" lc_id="Ks7vHC1iEM">{{ item.desc }}</div>
                               </div>
                           </li>
                       </ul>
                   </div>
               </template>
-              <div class="demonstration-element" lc_id="5yst4mGOV4listcardImageLeft">ListCardImageRight 列表</div>
-              <template lc_id="w63ZNwl7PNImageLeft">
-                  <div class="list-card" lc_id="ytUyoI+qdEImageLeft" lc-mark>
-                      <ul lc_id="clG9pVvHjkImageLeft" style="padding: 0; margin: 0">
-                          <li class="list-card-item" v-for="item in listCard" :key="item.id" lc_id="bWqL4Fy2iOImageLeft">
-                              <div class="item-right" lc_id="zBsMNOzclQImageLeft">
-                                  <div class="item-title" lc_id="crveS3CffxImageLeft">{{ item.title }}</div>
-                                  <div class="item-desc" lc_id="2Ou2t/99v3ImageLeft">{{ item.desc }}</div>
+              <div class="demonstration-element" lc_id="kAH9k/tqtN">ListCardImageRight 列表</div>
+              <template lc_id="IHKw8ugOR5">
+                  <div class="list-card" lc-mark lc_id="f2bOoCWfJo">
+                      <ul style="padding: 0; margin: 0" lc_id="y56aJQ3yMg">
+                          <li class="list-card-item" v-for="item in listCard" :key="item.id" lc_id="pCSKvGgKYh">
+                              <div class="item-right" lc_id="WYgAXwXHiz">
+                                  <div class="item-title" lc_id="bLrub/5XnE">{{ item.title }}</div>
+                                  <div class="item-desc" lc_id="eJkGMSrJlD">{{ item.desc }}</div>
                               </div>
-                              <el-image :src="item.imgUrl" class="list-card-item-image" fit="cover" lc_id="jkmVAKQxrQImageLeft" lazy></el-image>
+                              <el-image :src="item.imgUrl" class="list-card-item-image" fit="cover" lazy lc_id="mC5DU8iZsJ"></el-image>
                           </li>
                       </ul>
                   </div>
               </template>
-              <div class="demonstration-element" lc_id="5yst4mGOV4listcardmageRight">ListCardImageLeft 列表</div>
-              <template lc_id="M+M48Gt/6/ImageRight">
-                  <div class="list-card list-card-vertical" lc-mark lc_id="ytUyoI+qdEImageRight">
-                      <ul lc_id="clG9pVvHjkImageRight" style="padding: 0; margin: 0">
-                          <li v-for="item in listCard" :key="item.id" class="list-card-item list-card-item-vertical border-bottom" lc_id="bWqL4Fy2iOImageRight">
-                              <div class="item-title mgb-10" lc_id="crveS3CffxImageRight">{{ item.title }}</div>
-                              <el-image class="list-card-item-image" style="width: 100%; height: 200px" lazy :src="item.imgUrl" fit="cover" lc_id="jkmVAKQxrQImageRight"></el-image>
-                              <div class="item-desc" lc_id="2Ou2t/99v3ImageRight">{{ item.desc }}</div>
+              <div class="demonstration-element" lc_id="I+2S0UaunT">ListCardImageLeft 列表</div>
+              <template lc_id="3LHZGby1Sn">
+                  <div class="list-card list-card-vertical" lc-mark lc_id="lV2/Jq7B5Z">
+                      <ul style="padding: 0; margin: 0" lc_id="BGvi0Y0Cp6">
+                          <li v-for="item in listCard" :key="item.id" class="list-card-item list-card-item-vertical border-bottom" lc_id="hwfh7hMcCs">
+                              <div class="item-title mgb-10" lc_id="iw9QNJvbXC">{{ item.title }}</div>
+                              <el-image class="list-card-item-image" style="width: 100%; height: 200px" lazy :src="item.imgUrl" fit="cover" lc_id="GzhKnU0YQ0"></el-image>
+                              <div class="item-desc" lc_id="ft9K1SqIPT">{{ item.desc }}</div>
                           </li>
                       </ul>
                   </div>
               </template>
-              <div class="demonstration-element" lc_id="5yst4mGOV4listcardImageCenter">ListCardImageCenter 列表</div>
-              <template lc_id="1elNET027yImageCenter">
-                  <div class="list-card list-card-vertical" lc-mark lc_id="ytUyoI+qdEImageCenter">
-                      <ul lc_id="clG9pVvHjkImageCenter" style="padding: 0; margin: 0">
-                          <li v-for="item in listCard" :key="item.id" class="list-card-item list-card-item-vertical border-bottom" lc_id="bWqL4Fy2iOImageCenter">
-                              <el-image style="width: 100%; height: 200px" lazy :src="item.imgUrl" fit="cover" lc_id="jkmVAKQxrQImageCenter"></el-image>
-                              <div class="item-title mgt-10" lc_id="crveS3CffxImageCenter">{{ item.title }}</div>
+              <div class="demonstration-element" lc_id="ePJCpAa8x9">ListCardImageCenter 列表</div>
+              <template lc_id="46kwDxgnvb">
+                  <div class="list-card list-card-vertical" lc-mark lc_id="Q02564PKSC">
+                      <ul style="padding: 0; margin: 0" lc_id="3HQg8fYD1m">
+                          <li v-for="item in listCard" :key="item.id" class="list-card-item list-card-item-vertical border-bottom" lc_id="fpt1mZloNz">
+                              <el-image style="width: 100%; height: 200px" lazy :src="item.imgUrl" fit="cover" lc_id="bJhmquoKcq"></el-image>
+                              <div class="item-title mgt-10" lc_id="CKeVlSIdX8">{{ item.title }}</div>
                           </li>
                       </ul>
                   </div>
@@ -65,10 +68,14 @@
   </template>
   <script>
 export default {
-  name: 'List',
+  name: "List",
   data() {
     return {
-      list: ["列表1", "列表2", "列表3"],
+      list: [
+        "卡片正文标题列表卡片正文标题卡片正文标题列表卡片正文标题卡片正文标题列表卡片正文标题",
+        "卡片正文标题列表卡片正文标题",
+        "卡片正文标题列表卡片正文标题",
+      ],
       listCard: [
         {
           id: 1,
@@ -89,7 +96,7 @@ export default {
   },
   methods: {},
 };  </script>
-  <style scoped>.list {
+  <style scoped lang="scss">.list {
   padding: 10px;
   background: #e9eef3;
   margin-bottom: 10px;
@@ -155,4 +162,28 @@ export default {
   -webkit-line-clamp: 1;
   display: -webkit-box;
   overflow: hidden;
+}
+.list-li {
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  cursor: pointer;
+}
+.title:hover {
+  color: cornflowerblue;
+}
+
+.list-item-right {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  flex-shrink: 0;
 }</style>
