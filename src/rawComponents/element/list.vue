@@ -5,7 +5,7 @@
               <template lc_id="jSQayLJhNZ">
                   <div class="list" lc-mark lc_id="S3c05a+Tsw">
                       <ul class="list" style="margin: 0" lc_id="yNnraJVQo1">
-                          <li v-for="item in list" :key="item" class="list-li" style="line-height: 2em" lc_id="5ePhoxNr4t">
+                          <li v-for="(item, index) in list" :key="index" class="list-li" style="line-height: 2em" lc_id="5ePhoxNr4t">
                               <span class="title" lc_id="zyqZeIgY+X">{{ item }}</span>
                               <span class="list-item-right" lc_id="ck0TqDEoC8">2021-12-8</span>
                           </li>

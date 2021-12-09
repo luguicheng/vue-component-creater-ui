@@ -391,6 +391,7 @@ export default {
     font-size: 40px;
     color: #d6d6d6;
     pointer-events: none;
+    opacity: 0.125;
   }
 }
 
