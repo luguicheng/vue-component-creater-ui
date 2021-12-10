@@ -8,12 +8,44 @@
                   <el-radio :label="9" lc-mark lc_id="YKnWJ/dyc+">备选项</el-radio>
               </el-radio-group>
           </div>
+          <div lc_id="mdpjct5Mnx">
+              <div class="demonstration-element" lc_id="b9sqWRWqKW">Radio 单选边框</div>
+              <el-radio-group v-model="radio" lc-mark lc_id="Cjr+6UFaiT">
+                  <el-radio lc-mark border :label="3" lc_id="yXVxSky/kJ">备选项</el-radio>
+                  <el-radio lc-mark border :label="6" lc_id="BCK//JOsCY">备选项</el-radio>
+                  <el-radio lc-mark border :label="9" lc_id="ikzHANnkSX">备选项</el-radio>
+              </el-radio-group>
+          </div>
+          <div lc_id="Vu7gXFgz4j">
+              <div class="demonstration-element" lc_id="N9suK4ghK1">Radio 单选按钮</div>
+              <el-radio-group v-model="radio" lc-mark lc_id="0EX+NNHir7">
+                  <el-radio-button lc-mark :label="3" lc_id="yFUG/nylE7">备选项</el-radio-button>
+                  <el-radio-button lc-mark :label="6" lc_id="Sww1A50tn4">备选项</el-radio-button>
+                  <el-radio-button lc-mark :label="9" lc_id="nj7OE8Z+3S">备选项</el-radio-button>
+              </el-radio-group>
+          </div>
           <div lc_id="XIuuMTW+0j">
               <div class="demonstration-element" lc_id="UJkx2Yas25">Checkbox 多选框</div>
               <el-checkbox-group lc-mark v-model="checkList" lc_id="5Ej1enwgPV">
                   <el-checkbox label="复选框 A" lc_id="UjSwDuUvwN"></el-checkbox>
                   <el-checkbox label="复选框 B" lc_id="Lh5ruzddpf"></el-checkbox>
                   <el-checkbox lc-mark label="复选框 C" lc_id="9I+2SXunYS"></el-checkbox>
+              </el-checkbox-group>
+          </div>
+          <div lc_id="vvJT+r9TfE">
+              <div class="demonstration-element" lc_id="Y/oRxxUq/h">Checkbox 多选按钮</div>
+              <el-checkbox-group lc-mark v-model="checkList" lc_id="Yqo+o2+H5T">
+                  <el-checkbox-button lc-mark label="复选框 A" lc_id="gRlPR8gdjr"></el-checkbox-button>
+                  <el-checkbox-button lc-mark label="复选框 B" lc_id="S0syQ8N35j"></el-checkbox-button>
+                  <el-checkbox-button lc-mark label="复选框 C" lc_id="fPGQaT9KTg"></el-checkbox-button>
+              </el-checkbox-group>
+          </div>
+          <div lc_id="jBcvGK2ac9">
+              <div class="demonstration-element" lc_id="OkAuL06pFn">Checkbox 多选边框</div>
+              <el-checkbox-group lc-mark v-model="checkList" lc_id="eDLJdbn0di">
+                  <el-checkbox lc-mark border label="复选框 A" lc_id="p/nc1r6IBA"></el-checkbox>
+                  <el-checkbox lc-mark border label="复选框 B" lc_id="kwRYYzTyfJ"></el-checkbox>
+                  <el-checkbox lc-mark border label="复选框 C" lc_id="vY+bV+kfsp"></el-checkbox>
               </el-checkbox-group>
           </div>
           <div lc_id="t5nTZdVOYh">

@@ -373,9 +373,9 @@ export default {
   position: relative;
 
   [div-lc-mark] {
-    border: 1px grey dashed;
     min-height: 1rem;
-    border-radius: 5px;
+    border: 1px dashed #e0e0e0;
+    border-radius: 2px;
   }
 
   [lc_id] {

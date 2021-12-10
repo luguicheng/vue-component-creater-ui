@@ -15,6 +15,9 @@
                   </td>
                   <td lc_id="Wg/gdfZ1hC">
                       <span lc_id="m+Oy7pHzNT" lc-mark>Span Element</span>
+                      <div lc_id="S6lOUHsk5f">
+                          <div lc-mark class="ellipsis" style="-webkit-line-clamp: 1" lc_id="hixtWNKwa5">超出显示省略号，超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号</div>
+                      </div>
                   </td>
               </tr>
               <tr lc_id="xunAa9pXZZ">
@@ -88,9 +91,35 @@
                       <div class="title" lc_id="8BlsclsR8F">flex 布局:</div>
                   </td>
                   <td lc_id="0j2JvmWVwv">
-                      <div class="demonstration-element" lc_id="l4L0b3Yqts">水平垂直居中</div>
-                      <div lc-mark style="display: inline-block; margin: 5px" lc_id="+re4wPbMgI">
-                          <div class="flex flex-item flex-center" style="width: 150px; height: 150px" lc_id="U6CzQ1JKRc">center</div>
+                      <div class="demonstration-element" lc_id="l4L0b3Yqts">卡片</div>
+                      <div style="display: flex; flex-wrap: wrap" lc_id="EuJM5DWi2S">
+                          <div div-lc-mark class="lc-flex-center" lc-mark lc_id="gl9s8Ypzbs">
+                              <el-image class="lc-img" :src="url4" fit="cover" lc_id="vniBxRz+hU"></el-image>
+                              <div class="ellipsis" style="margin-top: 5px" lc_id="NOwVRPGtSm">超出显示省略号</div>
+                          </div>
+                          <div div-lc-mark class="lc-flex-img" lc-mark lc_id="7MvxYKL44w">
+                              <el-image :src="url4" style="width: 100%; height: 100px; border-radius: 5px" fit="cover" lc_id="xYELXQ5wvT"></el-image>
+                              <div class="ellipsis" style="margin-top: 5px; padding: 0 2px; height: 1rem; line-height: 1.2rem" lc_id="tBEq/d/6uP">超出显示省略号</div>
+                          </div>
+                          <div div-lc-mark lc-mark class="lc-flex-h" lc_id="9SW+bxyh+J">
+                              <el-image class="lc-flex-h--img" :src="url4" fit="cover" lc_id="LeiU31uIbM"></el-image>
+                              <div div-lc-mark class="lc-flex-h--text" lc_id="gM62Io6rKo">
+                                  <div class="ellipsis bolder" style="-webkit-line-clamp: 1" lc_id="jzRJhPRhlY">超出显示省略号，超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号</div>
+                                  <div class="ellipsis light" style="-webkit-line-clamp: 2" lc_id="pn7cnBRfO5">超出显示省略号，超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号</div>
+                              </div>
+                          </div>
+                          <div div-lc-mark lc-mark class="lc-flex-v" lc_id="SVfamH+Z8f">
+                              <el-image lc-mark :src="url4" class="lc-flex-v--img" fit="cover" lc_id="Tn+eJBufDt"></el-image>
+                              <div div-lc-mark class="lc-flex-v--text" lc_id="dABoZKELyy">
+                                  <div div-lc-mark lc_id="kxvp8kf5Pa">
+                                      <div lc-mark class="ellipsis bolder" style="-webkit-line-clamp: 1" lc_id="ZQ+vRKhxCZ">超出显示省略号，超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号</div>
+                                      <div lc-mark class="ellipsis light" style="-webkit-line-clamp: 2" lc_id="UlGFUwHpPq">超出显示省略号，超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号超出显示省略号</div>
+                                  </div>
+                                  <div div-lc-mark lc_id="y7LJrDs91S">
+                                      <div class="ellipsis" style="-webkit-line-clamp: 1" lc_id="+wcA6ak+Q4">2021-12-10</div>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
                       <div class="demonstration-element" lc_id="we1TgJSC8u">固定-自适应</div>
                       <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="+8CPVRmpwh">
@@ -252,6 +281,7 @@ export default {
     return {
       items: ["red", "orange", "yellow"],
       cols: 3,
+      url4: "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
     };
   },
 
@@ -301,9 +331,9 @@ export default {
 }
 
 [div-lc-mark] {
-  border: 1px grey dashed;
   min-height: 1rem;
-  border-radius: 5px;
+  border: 1px dashed #e0e0e0;
+  border-radius: 2px;
 }
 
 .flex {
@@ -437,4 +467,96 @@ export default {
 
 .flex-fit {
   flex: 1;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  padding: 0 2px;
+  line-height: 1.2rem;
+}
+.border {
+  font-weight: bolder;
+}
+.light {
+  font-size: 0.8em;
+  color: #aaa;
+}
+.lc-flex-center {
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+}
+
+.lc-img {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+}
+.lc-flex-img {
+  width: 100px;
+  height: 145px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+}
+.lc-flex-h {
+  padding: 10px;
+  width: 180px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.lc-flex-h--img {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+}
+.lc-flex-h--text {
+  flex: 1;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lc-flex-v {
+  padding: 10px;
+  width: 300px;
+  height: 135px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px;
+}
+.lc-flex-v--img {
+  width: 90px;
+  height: 100%;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.lc-flex-v--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  flex: 1;
+  height: 100%;
+  padding: 10px;
 }</style>

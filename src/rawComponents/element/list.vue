@@ -98,12 +98,12 @@ export default {
 };  </script>
   <style scoped lang="scss">.list {
   padding: 10px;
-  background: #e9eef3;
+  background: #f0f0f0;
   margin-bottom: 10px;
 }
 .list-card {
   padding: 10px;
-  background: #e9eef3;
+  background: #f0f0f0;
   margin-bottom: 10px;
 }
 .list-card-vertical {

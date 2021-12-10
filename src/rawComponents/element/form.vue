@@ -1,16 +1,66 @@
   <template lc_id="dONI+eltfy">
       <div lc_id="pYW7lbQNBm">
+          <div lc_id="mL5ltGQ2+1">
+              <div class="demonstration-element" lc_id="2ckgf6ruBF">Form 容器</div>
+              <el-form :model="ruleForm" :rules="rules" ref="ruleForm" lc-mark label-width="100px" class="demo-border" lc_id="gUzm9BtYBr"></el-form>
+          </div>
+          <div lc_id="Q9ouPvVCDr">
+              <div class="demonstration-element" lc_id="o+cICYnjrx">Form 表单</div>
+              <el-form lc-mark :model="form" class="demo-form-inline" lc_id="TwqFaXJ4RS">
+                  <el-form-item label lc-mark lc_id="0aUoeKoq9g">
+                      <el-input prefix-icon="el-icon-user" v-model="form.user" placeholder="用户名" lc_id="Ci0nqlOjOa"></el-input>
+                  </el-form-item>
+                  <el-form-item label lc_id="J+XmdqdaSi">
+                      <el-input type="password" show-password prefix-icon="el-icon-key" v-model="form.password" placeholder="密码" lc_id="lHxFmtM+gN"></el-input>
+                  </el-form-item>
+                  <el-form-item label lc-mark lc_id="m0vbbZBd8f">
+                      <el-button type="primary" style="width: 100px" lc_id="tX8ZrnNKl9">登录</el-button>
+                  </el-form-item>
+              </el-form>
+          </div>
+          <div lc_id="Q9ouPvVCDr">
+              <div class="demonstration-element" lc_id="MG8v4IOEZZ">Form 表单</div>
+              <el-form label-position="top" lc-mark :model="form" class="demo-form-inline" lc_id="9+WXKXME7s">
+                  <el-form-item label="输入框" lc-mark lc_id="Y/qAUNJ5wR">
+                      <el-input clearable class="w-fit" v-model="form.user" placeholder="输入框" lc_id="sTc1q9ME7K"></el-input>
+                  </el-form-item>
+                  <el-form-item label="激活即列出输入建议" lc-mark lc_id="nxTFmvqJwJ">
+                      <el-autocomplete class="inline-input w-fit" v-model="state1" :fetch-suggestions="querySearch" placeholder="激活即列出输入建议" @select="handleSelect" lc_id="eY894UwZkt"></el-autocomplete>
+                  </el-form-item>
+                  <el-form-item label="日期" lc-mark lc_id="Z3Jb9SXnyx">
+                      <el-date-picker clearable class="w-fit" v-model="date" type="date" placeholder="选择日期" lc_id="Ez7uNXnf06"></el-date-picker>
+                  </el-form-item>
+                  <el-form-item label="日期时间" lc-mark lc_id="MSfy9Hgp0F">
+                      <el-date-picker clearable class="w-fit" v-model="datetime" type="datetime" placeholder="选择日期时间" lc_id="nkpwm1zCEI"></el-date-picker>
+                  </el-form-item>
+                  <el-form-item label="选择框" lc-mark lc_id="l4Vfz9WuFn">
+                      <el-select class="w-fit" filterable clearable v-model="form.region" placeholder="搜索选择" lc_id="xJu0LMwp0e">
+                          <el-option label="区域一" value="shanghai" lc_id="t+nqn94Ogl"></el-option>
+                          <el-option label="区域二" value="beijing" lc_id="rSauc+/3Qe"></el-option>
+                      </el-select>
+                  </el-form-item>
+              </el-form>
+          </div>
           <div lc_id="Q9ouPvVCDr">
               <div class="demonstration-element" lc_id="QS2gym2BZJ">Form 行内表单</div>
-              <el-form inline lc-mark :model="formInline" class="demo-form-inline" lc_id="WsfIP160bw">
+              <el-form label-width="80px" inline lc-mark :model="form" class="demo-form-inline" lc_id="WsfIP160bw">
                   <el-form-item label="审批人" lc_id="nwnVQASGS0" lc-mark>
-                      <el-input v-model="formInline.user" placeholder="审批人" lc_id="fyTWqa6xR3"></el-input>
+                      <el-input class="w-206" v-model="form.user" placeholder="审批人" lc_id="fyTWqa6xR3"></el-input>
+                  </el-form-item>
+                  <el-form-item label="审批人" lc-mark lc_id="stavstkOQs">
+                      <el-autocomplete class="inline-input w-206" v-model="state1" :fetch-suggestions="querySearch" placeholder="激活即列出输入建议" @select="handleSelect" lc_id="Xr/Sd6UcQd"></el-autocomplete>
                   </el-form-item>
                   <el-form-item label="活动区域" lc_id="eofsdbRMjx" lc-mark>
-                      <el-select v-model="formInline.region" placeholder="活动区域" lc_id="+2rUZ3W3aC">
+                      <el-select class="w-206" filterable clearable v-model="form.region" placeholder="活动区域" lc_id="+2rUZ3W3aC">
                           <el-option label="区域一" value="shanghai" lc_id="IHvRkwasBm"></el-option>
                           <el-option label="区域二" value="beijing" lc_id="TR+GgYcJ6L"></el-option>
                       </el-select>
+                  </el-form-item>
+                  <el-form-item label="日期" lc-mark lc_id="4GXwcQiOyE">
+                      <el-date-picker clearable class="w-206" v-model="date" type="date" placeholder="选择日期" lc_id="gvOP7/pM6/"></el-date-picker>
+                  </el-form-item>
+                  <el-form-item label="日期时间" lc-mark lc_id="M/wV0o6oQF">
+                      <el-date-picker clearable class="w-206" v-model="datetime" type="datetime" placeholder="选择日期时间" lc_id="wmuALdhYgi"></el-date-picker>
                   </el-form-item>
               </el-form>
           </div>
@@ -28,10 +78,6 @@
                   <b lc_id="BVD6vZZXln">Key:</b>
                   <div lc_id="9PkvdAl5Pg" label-lc-mark></div>
               </span>
-          </div>
-          <div lc_id="mL5ltGQ2+1">
-              <div class="demonstration-element" lc_id="2ckgf6ruBF">Form 容器</div>
-              <el-form :model="ruleForm" :rules="rules" ref="ruleForm" lc-mark label-width="100px" class="demo-border" lc_id="gUzm9BtYBr"></el-form>
           </div>
           <div lc_id="4tNJzbfZpl">
               <div class="demonstration-element" lc_id="q2A/v0bGPa">Form 典型表单</div>
@@ -128,6 +174,10 @@
 export default {
   data() {
     return {
+      date: '',
+      datetime: '',
+      restaurants: [],
+      state1: "",
       radio1: 3,
       ruleForm: {
         name: "",
@@ -172,11 +222,15 @@ export default {
         resource: [{ required: true, message: "请选择活动资源", trigger: "change" }],
         desc: [{ required: true, message: "请填写活动形式", trigger: "blur" }],
       },
-      formInline: {
+      form: {
         user: "",
+        password: "",
         region: "",
       },
     };
+  },
+  mounted() {
+    this.restaurants = this.loadAll();
   },
   methods: {
     onSubmit() {
@@ -191,13 +245,48 @@ export default {
     resetForm() {
       console.log("submit!");
     },
+    handleSelect(item) {
+      console.log(item);
+    },
+    createFilter(queryString) {
+      return (restaurant) => {
+        return restaurant.value.toLowerCase().indexOf(queryString.toLowerCase()) === 0;
+      };
+    },
+    querySearch(queryString, cb) {
+      var restaurants = this.restaurants;
+      var results = queryString ? restaurants.filter(this.createFilter(queryString)) : restaurants;
+      // 调用 callback 返回建议列表的数据
+      cb(results);
+    },
+    loadAll() {
+      return [
+        { value: "三全鲜食（北新泾店）", address: "长宁区新渔路144号" },
+        { value: "Hot honey 首尔炸鸡（仙霞路）", address: "上海市长宁区淞虹路661号" },
+        { value: "新旺角茶餐厅", address: "上海市普陀区真北路988号创邑金沙谷6号楼113" },
+      ];
+    },
   },
 };  </script>
-  <style scoped>.demo-border {
-  border: 1px grey dashed;
+  <style scoped lang="scss">.demo-border {
   min-height: 1rem;
-  border-radius: 5px;
+  background: #f0f0f0;
+  padding: 10px;
 }
+.line {
+  text-align: center;
+}
+.demo-form-inline {
+  background: #f0f0f0;
+  padding: 10px;
+}
+.w-fit {
+  width: 100%;
+}
+.w-206 {
+    width: 206px;
+}
+
 [label-lc-mark] {
   display: inline-block;
   width: 200px;
