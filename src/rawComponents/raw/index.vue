@@ -120,6 +120,42 @@
                                   </div>
                               </div>
                           </div>
+                          <div lc-mark class="clip-card" lc_id="6YIF2wxa6i">
+                              <div class="clipped" style="width:150px;height:90px;background:#e0e0e0" lc_id="SZeRFhkYDY">
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="Tn+eJBufDt"></el-image>
+                              </div>
+                              <div lc_id="BJqDGBFXrY">
+                                  <div class="ellipsis light" lc_id="kpRPSwMrFy">简介简介</div>
+                                  <div class="ellipsis bolder" lc_id="ro0DT/rvbN">主标题主标题</div>
+                              </div>
+                          </div>
+                          <div lc-mark class="clip-card" lc_id="KQ0pJXooeB">
+                              <div class="clipped2" style="width:150px;height:90px;background:#e0e0e0" lc_id="MkBPKeNUV/">
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="Tn+eJBufDt"></el-image>
+                              </div>
+                              <div lc_id="+ITGt2Rwb/">
+                                  <div class="ellipsis light" lc_id="4EO7i1KS7i">简介简介</div>
+                                  <div class="ellipsis bolder" lc_id="wmXGZy+Wi5">主标题主标题</div>
+                              </div>
+                          </div>
+                          <div lc-mark class="clip-card" lc_id="5HFwGSCHXc">
+                              <div class="clipped3" style="width:150px;height:90px;background:#e0e0e0" lc_id="r5VZWW7Nmt">
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="Tn+eJBufDt"></el-image>
+                              </div>
+                              <div lc_id="7c/T75rFMi">
+                                  <div class="ellipsis light" lc_id="+lWjA8lP47">简介简介</div>
+                                  <div class="ellipsis bolder" lc_id="qABz7p2X+R">主标题主标题</div>
+                              </div>
+                          </div>
+                          <div lc-mark class="clip-card" lc_id="gKoZZCcG/f">
+                              <div class="clipped4" style="width:150px;height:90px;background:#e0e0e0" lc_id="d/TZnFGj2K">
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="Tn+eJBufDt"></el-image>
+                              </div>
+                              <div lc_id="MSxiDxMLck">
+                                  <div class="ellipsis light" lc_id="obZWjxJZmR">简介简介</div>
+                                  <div class="ellipsis bolder" lc_id="Z/1JkraHPM">主标题主标题</div>
+                              </div>
+                          </div>
                       </div>
                       <div class="demonstration-element" lc_id="we1TgJSC8u">固定-自适应</div>
                       <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="+8CPVRmpwh">
@@ -476,6 +512,7 @@ export default {
   overflow: hidden;
   padding: 0 2px;
   line-height: 1.2rem;
+  word-break: break-all;
 }
 .border {
   font-weight: bolder;
@@ -559,4 +596,27 @@ export default {
   flex: 1;
   height: 100%;
   padding: 10px;
+}
+
+.clip-card {
+  width:152px;
+  height:150px;
+  background:#fff;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  text-align: center;
+  margin: 5px;
+}
+
+.clipped {
+  clip-path: path("M 0 0 L 0 74 C 63 91 80 37 150 75 V 0 Z");
+}
+.clipped2 {
+  clip-path: path("M 0 0 L 0 74 C 36 93 103 95 150 75 V 0 Z");
+}
+.clipped3 {
+  clip-path: path("M 0 0 L 0 74 C 77 36 65 104 150 75 V 0 Z");
+}
+.clipped4 {
+  clip-path: path("M 0 0 L 0 74 C 67 98 83 34 150 75 V 0 Z");
 }</style>

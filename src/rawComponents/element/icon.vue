@@ -64,6 +64,26 @@
                   <el-tab-pane label="定时任务补偿" name="fourth" lc_id="txrrEJikwC">定时任务补偿</el-tab-pane>
               </el-tabs>
           </div>
+          <div lc_id="DEC5Deag6/">
+              <div class="demonstration-element" lc_id="e5jIMfMOsh">Menu 菜单按钮</div>
+              <div lc-mark lc_id="mIx3pfdJ3p">
+                  <div class="menu" lc_id="M+mxm0Zy/8">
+                      <el-button class="menu-button" icon="el-icon-menu" circle type="primary" lc_id="kx6OhXCrLg"></el-button>
+                      <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" lc_id="v1WcEbu6Rz">
+                          <lineargradient id="a" gradientunits="userSpaceOnUse" x1="140.071" y1="36.144" x2="129.386" y2="127.654" gradienttransform="scale(-1 1) rotate(-6.661 -268.682 1705.507)" lc_id="ZwdL+0se8K">
+                              <stop offset="0" stop-color="#FD5F69" lc_id="wDTHydC354"></stop>
+                              <stop offset="1" stop-color="#FFC724" lc_id="ymNXdyAyJp"></stop>
+                          </lineargradient>
+                          <path fill="url(#a)" d="M87.2 1.6c12.1 4.1 31.4 26 23.8 47.7-7.7 21.7-15.6 29.5-42.3 37.4-26.8 7.9-61 10.4-67.5-14.6-6.4-25 13.4-50.3 42.3-61.6 29-11.2 34.4-12 43.7-8.9z" lc_id="/oUnLkPbGB"></path>
+                      </svg>
+                      <el-tabs lc-mark v-model="activeName" @tab-click="handleClick" lc_id="tuf2/9+j/e">
+                          <el-tab-pane label="用户管理" name="first" lc_id="v/FOTtwlL9">用户管理</el-tab-pane>
+                          <el-tab-pane label="配置管理" name="second" lc_id="FrknB8ZWZ2">配置管理</el-tab-pane>
+                          <el-tab-pane label="角色管理" name="third" lc_id="YUREDANeTC">角色管理</el-tab-pane>
+                      </el-tabs>
+                  </div>
+              </div>
+          </div>
           <div lc_id="ZNvwIyI0Gj">
               <div class="demonstration-element" lc_id="94nfjvP9P7">Breadcrumb 面包屑</div>
               <el-breadcrumb separator="/" lc-mark lc_id="IXjFDSAAbN">
@@ -74,6 +94,21 @@
                   <el-breadcrumb-item lc_id="c0pBs9wfpq">活动列表</el-breadcrumb-item>
                   <el-breadcrumb-item lc_id="puOnAeoiUr">活动详情</el-breadcrumb-item>
               </el-breadcrumb>
+          </div>
+          <div lc_id="zsSZ0o/bdS">
+              <div class="demonstration-element" lc_id="RdwSWreMMe">Divider 分割线</div>
+              <el-divider lc-mark content-position="left" lc_id="BiDFMMoP7x">少年包青天</el-divider>
+              <el-divider lc-mark lc_id="jqic6xoUIB">
+                  <i class="el-icon-mobile-phone" lc_id="yLrO+koFrQ"></i>
+              </el-divider>
+              <el-divider lc-mark content-position="right" lc_id="JepeYI2Z8z">阿里云</el-divider>
+              <div lc-mark lc_id="XUeraxFOH+">
+                  <span lc_id="fJN545x/3t">雨纷纷</span>
+                  <el-divider lc-mark direction="vertical" lc_id="WRVS2Xrr7o"></el-divider>
+                  <span lc_id="e+pFo2X0Ps">旧故里</span>
+                  <el-divider lc-mark direction="vertical" lc_id="N14PmcBD3U"></el-divider>
+                  <span lc_id="UlUD0egPqZ">草木深</span>
+              </div>
           </div>
           <div lc_id="5x1yyr+pUS">
               <div class="demonstration-element" lc_id="oqU11GHCqz">PageHeader 页头</div>
@@ -159,8 +194,7 @@
 export default {
   data() {
     return {
-      url:
-        "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
+      url: "https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg",
       calendarValue: new Date(),
       reverse: true,
       activities: [
@@ -275,4 +309,21 @@ export default {
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
+}
+
+.menu {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  transition: clip-path 0.3s linear;
+  clip-path: circle(20px at 20px 20px);
+}
+
+.menu:hover {
+    clip-path: circle(500px at 20px 20px);
+}
+
+.menu:hover .menu-button{
+  display: none;
 }</style>
