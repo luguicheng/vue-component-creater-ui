@@ -599,6 +599,7 @@ export default {
 }
 
 .clip-card {
+  display: inline-block;
   width:152px;
   height:150px;
   background:#fff;
@@ -609,14 +610,14 @@ export default {
 }
 
 .clipped {
-  clip-path: path("M 0 0 L 0 74 C 63 91 80 37 150 75 V 0 Z");
+  clip-path: path("M 0 0 L 0 75 C 63 91 80 37 150 75 V 0 Z");
 }
 .clipped2 {
-  clip-path: path("M 0 0 L 0 74 C 36 93 103 95 150 75 V 0 Z");
+  clip-path: path("M 0 0 L 0 75 C 36 93 103 95 150 75 V 0 Z");
 }
 .clipped3 {
-  clip-path: path("M 0 0 L 0 74 C 77 36 65 104 150 75 V 0 Z");
+  clip-path: path("M 0 0 L 0 75 C 77 36 65 104 150 75 V 0 Z");
 }
 .clipped4 {
-  clip-path: path("M 0 0 L 0 74 C 67 98 83 34 150 75 V 0 Z");
+  clip-path: path("M 0 0 L 0 75 C 67 98 83 34 150 75 V 0 Z");
 }</style>
