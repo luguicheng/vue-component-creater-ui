@@ -66,17 +66,10 @@
           </div>
           <div lc_id="DEC5Deag6/">
               <div class="demonstration-element" lc_id="e5jIMfMOsh">Menu 菜单按钮</div>
-              <div lc-mark lc_id="mIx3pfdJ3p">
+              <div lc-mark lc_id="mIx3pfdJ3p" style="display:inline-block;border-top-left-radius: 20px;">
                   <div class="menu" lc_id="M+mxm0Zy/8">
                       <el-button class="menu-button" icon="el-icon-menu" circle type="primary" lc_id="kx6OhXCrLg"></el-button>
-                      <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" lc_id="v1WcEbu6Rz">
-                          <lineargradient id="a" gradientunits="userSpaceOnUse" x1="140.071" y1="36.144" x2="129.386" y2="127.654" gradienttransform="scale(-1 1) rotate(-6.661 -268.682 1705.507)" lc_id="ZwdL+0se8K">
-                              <stop offset="0" stop-color="#FD5F69" lc_id="wDTHydC354"></stop>
-                              <stop offset="1" stop-color="#FFC724" lc_id="ymNXdyAyJp"></stop>
-                          </lineargradient>
-                          <path fill="url(#a)" d="M87.2 1.6c12.1 4.1 31.4 26 23.8 47.7-7.7 21.7-15.6 29.5-42.3 37.4-26.8 7.9-61 10.4-67.5-14.6-6.4-25 13.4-50.3 42.3-61.6 29-11.2 34.4-12 43.7-8.9z" lc_id="/oUnLkPbGB"></path>
-                      </svg>
-                      <el-tabs lc-mark v-model="activeName" @tab-click="handleClick" lc_id="tuf2/9+j/e">
+                      <el-tabs v-model="activeName" @tab-click="handleClick" lc_id="tuf2/9+j/e">
                           <el-tab-pane label="用户管理" name="first" lc_id="v/FOTtwlL9">用户管理</el-tab-pane>
                           <el-tab-pane label="配置管理" name="second" lc_id="FrknB8ZWZ2">配置管理</el-tab-pane>
                           <el-tab-pane label="角色管理" name="third" lc_id="YUREDANeTC">角色管理</el-tab-pane>
@@ -317,7 +310,10 @@ export default {
   height: 300px;
   overflow: hidden;
   transition: clip-path 0.3s linear;
-  clip-path: circle(20px at 20px 20px);
+  clip-path: circle(19px at 20px 20px);
+  background-color: rgba(148, 188, 211, 0.527);
+  display: inline-block;
+  border-top-left-radius: 20px;
 }
 
 .menu:hover {

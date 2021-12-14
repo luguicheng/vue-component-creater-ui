@@ -396,8 +396,8 @@ export default {
 }
 
 .mark-element-unit {
-  opacity: 0.5;
-  outline: red 2px solid;
+  // opacity: 0.5;
+  outline: rgb(0, 153, 255) 2px dashed;
 }
 </style>
 
