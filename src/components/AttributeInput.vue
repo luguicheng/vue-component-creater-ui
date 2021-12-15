@@ -240,6 +240,7 @@ export default {
       return result;
     },
 
+
     attributeKeys() {
       return this.localAttributes.map(item => item.key)
     }

@@ -20,9 +20,12 @@
             Mode</el-link>
         </div>
       </el-col>
-      <el-col :span="10">
+      <el-col :span="7">
         <el-link type="primary" @click="$emit('structureVisible')">Inspect Components
           Structure</el-link>
+      </el-col>
+      <el-col :span="3">
+        <div class="attribute-panel" @click="onToggleAttr" :class="{active: isShowAttribute}">属性面板</div>
       </el-col>
       <el-col :span="3">
         <github-button href="https://github.com/sahadev/vue-component-creater-ui" data-icon="octicon-star"
@@ -56,6 +59,7 @@ export default {
     return {
       previewMode: false,
       editMode: true,
+      isShowAttribute: true
     };
   },
   watch: {},
@@ -85,6 +89,10 @@ export default {
     onEditModeChange() {
       this.editMode = !this.editMode;
       this.$emit('onEditModeChange', this.editMode);
+    },
+    onToggleAttr() {
+      this.isShowAttribute = !this.isShowAttribute
+      this.$emit('onToggleAttr', this.isShowAttribute);
     }
   },
   fillter: {},
@@ -113,9 +121,23 @@ export default {
 }
 </style>
 
-<style scoped>
+<style scoped lang="scss">
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
+}
+
+.attribute-panel {
+  padding: 0px 10px;
+  border: 1px solid #409eff;
+  color: #409eff;
+  cursor: default;
+  display: inline-block;
+  user-select: none;
+  &.active {
+    background: #409eff;
+    color: #fff;
+    border: 1px solid #409eff;
+  }
 }
 
 @keyframes octocat-wave {

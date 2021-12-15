@@ -159,87 +159,67 @@
                       </div>
                       <div class="demonstration-element" lc_id="we1TgJSC8u">固定-自适应</div>
                       <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="+8CPVRmpwh">
-                          <div class="flex-item" style="width: 150px" lc_id="vmmdJIKv3b"></div>
-                          <div class="flex-item flex-fit" lc_id="cF6aTk5f5w"></div>
+                          <div lc-mark class="flex-item" style="width: 150px" lc_id="vmmdJIKv3b"></div>
+                          <div lc-mark class="flex-item flex-fit" lc_id="cF6aTk5f5w"></div>
                       </div>
                       <div class="demonstration-element" lc_id="J0YEsNkmXn">自适应-固定</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="+HqvG01th3">
-                          <div class="flex" lc_id="VDFwX6MkgF">
-                              <div class="flex-item flex-fit" lc_id="aChrX/iD5M"></div>
-                              <div class="flex-item" style="width: 150px" lc_id="1rUT69n8VE"></div>
-                          </div>
+                      <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="+HqvG01th3">
+                          <div lc-mark class="flex-item flex-fit" lc_id="aChrX/iD5M"></div>
+                          <div lc-mark class="flex-item" style="width: 150px" lc_id="1rUT69n8VE"></div>
                       </div>
                       <div class="demonstration-element" lc_id="A7ZtTe7s2h">固定-自适应-固定</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="NmFgRE9Xk6">
-                          <div class="flex" lc_id="Ept4RNmAN/">
-                              <div class="flex-item" style="width: 150px" lc_id="ZK9KavR7bU"></div>
-                              <div class="flex-item flex-fit" lc_id="YnL+9qO5R2"></div>
-                              <div class="flex-item" style="width: 150px" lc_id="/Jy5mSBWzO"></div>
-                          </div>
+                      <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="NmFgRE9Xk6">
+                          <div lc-mark class="flex-item" style="width: 150px" lc_id="ZK9KavR7bU"></div>
+                          <div lc-mark class="flex-item flex-fit" lc_id="YnL+9qO5R2"></div>
+                          <div lc-mark class="flex-item" style="width: 150px" lc_id="/Jy5mSBWzO"></div>
                       </div>
                       <div class="demonstration-element" lc_id="Qbe4PFBiX/">水平 flex-start 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="G/Ku1VxkWd">
-                          <div class="flex" lc_id="Uo+3CI0a1X" title>
-                              <div class="flex-item" lc_id="grovM2GHLR"></div>
-                              <div class="flex-item" lc_id="RW3iyTjyu7"></div>
-                              <div class="flex-item" lc_id="dMGLyDklyx"></div>
-                          </div>
+                      <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="G/Ku1VxkWd">
+                          <div lc-mark class="flex-item" lc_id="grovM2GHLR"></div>
+                          <div lc-mark class="flex-item" lc_id="RW3iyTjyu7"></div>
+                          <div lc-mark class="flex-item" lc_id="dMGLyDklyx"></div>
                       </div>
                       <div class="demonstration-element" lc_id="iSokzd9Z1S">水平 flex-end 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="4nXdaMrzlc">
-                          <div class="flex flex-end-wrap" lc_id="3cVKNkdkz3">
-                              <div class="flex-item" lc_id="pD4+2uzSKY"></div>
-                              <div class="flex-item" lc_id="eQa9byReuO"></div>
-                              <div class="flex-item" lc_id="0htWw9KmOW"></div>
-                          </div>
+                      <div lc-mark class="flex flex-end-wrap" style="margin-bottom: 10px" lc_id="4nXdaMrzlc">
+                          <div lc-mark class="flex-item" lc_id="pD4+2uzSKY"></div>
+                          <div lc-mark class="flex-item" lc_id="eQa9byReuO"></div>
+                          <div lc-mark class="flex-item" lc_id="0htWw9KmOW"></div>
                       </div>
                       <div class="demonstration-element" lc_id="jBEuIn9kvp">水平 center 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="DeP3Pi7F4W">
-                          <div class="flex flex-center-wrap" lc_id="w44Blkp7/r">
-                              <div class="flex-item" lc_id="oebgNKzzez"></div>
-                              <div class="flex-item" lc_id="FedwLLRKLq"></div>
-                              <div class="flex-item" lc_id="GAgZS1rvuw"></div>
-                          </div>
+                      <div lc-mark class="flex flex-center-wrap" style="margin-bottom: 10px" lc_id="DeP3Pi7F4W">
+                          <div lc-mark class="flex-item" lc_id="oebgNKzzez"></div>
+                          <div lc-mark class="flex-item" lc_id="FedwLLRKLq"></div>
+                          <div lc-mark class="flex-item" lc_id="GAgZS1rvuw"></div>
                       </div>
                       <div class="demonstration-element" lc_id="DO+rPtse7p">水平 space-around 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="YGyloHI+Di">
-                          <div class="flex flex-space-around" lc_id="j2zMXyRIpW">
-                              <div class="flex-item" lc_id="q6fPJYCyzm"></div>
-                              <div class="flex-item" lc_id="NmIkUILf7/"></div>
-                              <div class="flex-item" lc_id="TmkBv/5oQT"></div>
-                          </div>
+                      <div lc-mark class="flex flex-space-around" style="margin-bottom: 10px" lc_id="YGyloHI+Di">
+                          <div lc-mark class="flex-item" lc_id="q6fPJYCyzm"></div>
+                          <div lc-mark class="flex-item" lc_id="NmIkUILf7/"></div>
+                          <div lc-mark class="flex-item" lc_id="TmkBv/5oQT"></div>
                       </div>
                       <div class="demonstration-element" lc_id="YpIVVTEfwm">水平 space-between 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="1qbk/UllEV">
-                          <div class="flex flex-space-between" lc_id="eZw9+0DnP7">
-                              <div class="flex-item" lc_id="IPW2JPs+ps"></div>
-                              <div class="flex-item" lc_id="JpPY+mEDNQ"></div>
-                              <div class="flex-item" lc_id="pXIR2W8idH"></div>
-                          </div>
+                      <div lc-mark class="flex flex-space-between" style="margin-bottom: 10px" lc_id="1qbk/UllEV">
+                          <div lc-mark class="flex-item" lc_id="IPW2JPs+ps"></div>
+                          <div lc-mark class="flex-item" lc_id="JpPY+mEDNQ"></div>
+                          <div lc-mark class="flex-item" lc_id="pXIR2W8idH"></div>
                       </div>
                       <div class="demonstration-element" lc_id="izyRLLt3DH">垂直 flex-start 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="b5om4NEYws">
-                          <div class="flex flex-column-start" lc_id="zyrJV2oMuc">
-                              <div class="flex-item" lc_id="zP0KGf/Pdd"></div>
-                              <div class="flex-item" lc_id="c62Za7kZ66"></div>
-                              <div class="flex-item" lc_id="apBGHkLMs5"></div>
-                          </div>
+                      <div lc-mark class="flex flex-column-start" style="margin-bottom: 10px" lc_id="b5om4NEYws">
+                          <div lc-mark class="flex-item" lc_id="zP0KGf/Pdd"></div>
+                          <div lc-mark class="flex-item" lc_id="c62Za7kZ66"></div>
+                          <div lc-mark class="flex-item" lc_id="apBGHkLMs5"></div>
                       </div>
                       <div class="demonstration-element" lc_id="q9+iJhpOcT">垂直 flex-end 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="50j7GFEJvE">
-                          <div class="flex flex-column-end" lc_id="OAC9Fp5QU+">
-                              <div class="flex-item" lc_id="FPmNsby5TQ"></div>
-                              <div class="flex-item" lc_id="A/viJGzOul"></div>
-                              <div class="flex-item" lc_id="r8SkF7894s"></div>
-                          </div>
+                      <div lc-mark class="flex flex-column-end" style="margin-bottom: 10px" lc_id="50j7GFEJvE">
+                          <div lc-mark class="flex-item" lc_id="FPmNsby5TQ"></div>
+                          <div lc-mark class="flex-item" lc_id="A/viJGzOul"></div>
+                          <div lc-mark class="flex-item" lc_id="r8SkF7894s"></div>
                       </div>
                       <div class="demonstration-element" lc_id="rjYY6D8k3p">垂直 center 布局</div>
-                      <div lc-mark style="margin-bottom: 10px" lc_id="KpV2dxUtmk">
-                          <div class="flex flex-column-center" lc_id="ShUjiby68R">
-                              <div class="flex-item" lc_id="xSmKmr55wQ"></div>
-                              <div class="flex-item" lc_id="bHntGfrqUv"></div>
-                              <div class="flex-item" lc_id="B49vd9+Bht"></div>
-                          </div>
+                      <div lc-mark class="flex flex-column-center" style="margin-bottom: 10px" lc_id="KpV2dxUtmk">
+                          <div lc-mark class="flex-item" lc_id="xSmKmr55wQ"></div>
+                          <div lc-mark class="flex-item" lc_id="bHntGfrqUv"></div>
+                          <div lc-mark class="flex-item" lc_id="B49vd9+Bht"></div>
                       </div>
                   </td>
               </tr>
@@ -250,46 +230,46 @@
                   <td lc_id="fUKNT8dM+i">
                       <div class="demonstration-element" lc_id="Oq4hEtmdmZ">grid 自适应</div>
                       <div class="grid grid-fit" lc-mark lc_id="kDpnWGPpkt">
-                          <div class="grid-item" lc_id="1cX7aPzDhJ"></div>
-                          <div class="grid-item" lc_id="PLzWSNzQXQ"></div>
-                          <div class="grid-item" lc_id="CVHUSslkCD"></div>
+                          <div lc-mark class="grid-item" lc_id="1cX7aPzDhJ"></div>
+                          <div lc-mark class="grid-item" lc_id="PLzWSNzQXQ"></div>
+                          <div lc-mark class="grid-item" lc_id="CVHUSslkCD"></div>
                       </div>
                       <div class="demonstration-element" lc_id="wb1c/a3NkR">N 列显示</div>
                       <div class="grid grid-n" lc-mark lc_id="34QYtBeAmq" style="grid-template-columns: repeat(3, 1fr)">
-                          <div class="grid-item" lc_id="FNNW0/WOVU"></div>
-                          <div class="grid-item" lc_id="xNJlesTzW6"></div>
-                          <div class="grid-item" lc_id="nEmo3xarhS"></div>
-                          <div class="grid-item" lc_id="cwo1gl7Zw5"></div>
-                          <div class="grid-item" lc_id="G1fJThL8va"></div>
-                          <div class="grid-item" lc_id="8FykoeE254"></div>
+                          <div lc-mark class="grid-item" lc_id="FNNW0/WOVU"></div>
+                          <div lc-mark class="grid-item" lc_id="xNJlesTzW6"></div>
+                          <div lc-mark class="grid-item" lc_id="nEmo3xarhS"></div>
+                          <div lc-mark class="grid-item" lc_id="cwo1gl7Zw5"></div>
+                          <div lc-mark class="grid-item" lc_id="G1fJThL8va"></div>
+                          <div lc-mark class="grid-item" lc_id="8FykoeE254"></div>
                       </div>
                       <div class="demonstration-element" lc_id="zNGHxhdXzu">grid 4格</div>
                       <div class="grid grid-4" lc-mark lc_id="o4yCyJ6D+U">
-                          <div class="grid-item" lc_id="WL64PogsTn"></div>
-                          <div class="grid-item" lc_id="pcOm9ASEvK"></div>
-                          <div class="grid-item" lc_id="EuiUV+GqF7"></div>
-                          <div class="grid-item" lc_id="f63hprBqUZ"></div>
+                          <div lc-mark class="grid-item" lc_id="WL64PogsTn"></div>
+                          <div lc-mark class="grid-item" lc_id="pcOm9ASEvK"></div>
+                          <div lc-mark class="grid-item" lc_id="EuiUV+GqF7"></div>
+                          <div lc-mark class="grid-item" lc_id="f63hprBqUZ"></div>
                       </div>
                       <div class="demonstration-element" lc_id="HuLx2EhFOW">grid 9格</div>
                       <div class="grid grid-9" lc-mark lc_id="H1LaxHbu3u">
-                          <div class="grid-item" lc_id="qCbzmQytnv"></div>
-                          <div class="grid-item" lc_id="yLe+WWqq8F"></div>
-                          <div class="grid-item" lc_id="BE0xGAmE6E"></div>
-                          <div class="grid-item" lc_id="EHzk1/LgiP"></div>
-                          <div class="grid-item" lc_id="5JIdZbT3cR"></div>
-                          <div class="grid-item" lc_id="CW4pORwPuM"></div>
-                          <div class="grid-item" lc_id="TDN6IY8FUp"></div>
-                          <div class="grid-item" lc_id="bSH+zfFsFR"></div>
-                          <div class="grid-item" lc_id="v0/1J8iEMi"></div>
+                          <div lc-mark class="grid-item" lc_id="qCbzmQytnv"></div>
+                          <div lc-mark class="grid-item" lc_id="yLe+WWqq8F"></div>
+                          <div lc-mark class="grid-item" lc_id="BE0xGAmE6E"></div>
+                          <div lc-mark class="grid-item" lc_id="EHzk1/LgiP"></div>
+                          <div lc-mark class="grid-item" lc_id="5JIdZbT3cR"></div>
+                          <div lc-mark class="grid-item" lc_id="CW4pORwPuM"></div>
+                          <div lc-mark class="grid-item" lc_id="TDN6IY8FUp"></div>
+                          <div lc-mark class="grid-item" lc_id="bSH+zfFsFR"></div>
+                          <div lc-mark class="grid-item" lc_id="v0/1J8iEMi"></div>
                       </div>
                       <div class="demonstration-element" lc_id="FlG7xV66M/">grid 固定-自适应-自适应</div>
                       <div class="grid" lc-mark lc_id="fwnJfd3LvC">
-                          <div class="grid-item" lc_id="zcCGrkCtWi">150px</div>
-                          <div class="grid-item" lc_id="JYKPuzQOW2">1fr</div>
-                          <div class="grid-item" lc_id="/GTY6Ql/uP">2fr</div>
-                          <div class="grid-item" lc_id="N8bSJ0vfPR">150px</div>
-                          <div class="grid-item" lc_id="p/EWCqqYjs">1fr</div>
-                          <div class="grid-item" lc_id="VXclUZ0scL">2fr</div>
+                          <div lc-mark class="grid-item" lc_id="zcCGrkCtWi">150px</div>
+                          <div lc-mark class="grid-item" lc_id="JYKPuzQOW2">1fr</div>
+                          <div lc-mark class="grid-item" lc_id="/GTY6Ql/uP">2fr</div>
+                          <div lc-mark class="grid-item" lc_id="N8bSJ0vfPR">150px</div>
+                          <div lc-mark class="grid-item" lc_id="p/EWCqqYjs">1fr</div>
+                          <div lc-mark class="grid-item" lc_id="VXclUZ0scL">2fr</div>
                       </div>
                   </td>
               </tr>

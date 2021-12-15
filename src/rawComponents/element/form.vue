@@ -2,7 +2,7 @@
       <div lc_id="pYW7lbQNBm">
           <div lc_id="mL5ltGQ2+1">
               <div class="demonstration-element" lc_id="2ckgf6ruBF">Form 容器</div>
-              <el-form :model="ruleForm" :rules="rules" ref="ruleForm" lc-mark label-width="100px" class="demo-border" lc_id="gUzm9BtYBr"></el-form>
+              <el-form :model="ruleForm" :rules="rules" ref="ruleForm" lc-mark class="demo-border" lc_id="gUzm9BtYBr"></el-form>
           </div>
           <div lc_id="Q9ouPvVCDr">
               <div class="demonstration-element" lc_id="o+cICYnjrx">Form 表单</div>

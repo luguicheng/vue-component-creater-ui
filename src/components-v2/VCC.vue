@@ -7,7 +7,7 @@
 
       <div class="main-container">
         <!--顶部工具栏-->
-        <tools-bar @onPreviewModeChange="onPreviewModeChange" @onEditModeChange="onEditModeChange" @redo="redo"
+        <tools-bar @onToggleAttr="onToggleAttr" @onPreviewModeChange="onPreviewModeChange" @onEditModeChange="onEditModeChange" @redo="redo"
           @undo="undo" @structureVisible="structureVisible = true"></tools-bar>
 
         <div class="preview-container">
@@ -93,14 +93,14 @@ export default {
       vueDialogVisible: false,
       iconCode: ("https://static.imonkey.xueersi.com/download/vcc-resource/icon/code-working-outline.svg"),
       iconClear: ("https://static.imonkey.xueersi.com/download/vcc-resource/icon/trash-outline.svg"),
-
+      isShowAttribute: true,
       viewMode: false
     };
   },
   watch: {
     currentEditRawInfo(newValue) {
       const attributeContainter = document.querySelector(".attribute");
-      if (newValue) {
+      if (newValue && this.isShowAttribute) {
         attributeContainter.style = "right:10px;";
         this.$refs['attributeInput'].onShow();
       } else {
@@ -204,6 +204,10 @@ export default {
       }
     },
 
+    onToggleAttr(val) {
+      this.isShowAttribute = val
+    },
+
     onEditModeChange(newValue) {
       this.mainPanelProvider.setEditMode(newValue);
     },
@@ -279,8 +283,8 @@ export default {
   border-radius: 10px;
   margin-left: 10px;
   position: absolute;
-  right: calc(-300px - 20px);
-  top: 10px;
+  right: 0 !important;
+  top: 35px;
   background: white;
   max-height: calc(80% - 20px);
   transition: right 0.5s;
@@ -448,5 +452,8 @@ export default {
   line-height: 12px;
   padding: 1px 2px;
   border-radius: 2px;
+}
+.el-row {
+  padding: 5px;
 }
 </style>
