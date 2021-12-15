@@ -103,21 +103,27 @@ export default {
   background-color: #b3c0d1;
   color: #333;
   text-align: center;
-  line-height: 60px;
+  min-height: 60px;
+  margin-bottom: 0!important;
+  margin: 2px;
 }
 
 .el-aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
-  line-height: 200px;
+  min-height: 200px;
+  margin-bottom: 0!important;
+  margin: 2px;
 }
 
 .el-main {
   background-color: #e9eef3;
   color: #333;
   text-align: center;
-  line-height: 160px;
+  min-height: 160px;
+  margin-bottom: 0!important;
+  margin: 2px;
 }
 
 body > .el-container {
@@ -126,9 +132,11 @@ body > .el-container {
 
 .el-container:nth-child(5) .el-aside,
 .el-container:nth-child(6) .el-aside {
-  line-height: 260px;
+  min-height: 260px;
 }
 
 .el-container:nth-child(7) .el-aside {
-  line-height: 320px;
+  min-height: 320px;
+  margin-bottom: 0 !important;
+  margin: 2px;
 }</style>
