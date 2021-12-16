@@ -2,49 +2,49 @@
       <div lc_id="/CF1zqlrKa">
           <div lc_id="4DOfKCgatF">
               <div class="demonstration-element" lc_id="xweUl0tEeN">Container 布局容器</div>
-              <el-container lc-mark lc_id="1VXObrdd7N">
-                  <el-header lc-mark lc_id="QKfTRdpP9t">Header</el-header>
-                  <el-main lc-mark lc_id="CEww9LuokJ">Main</el-main>
+              <el-container class="container" lc-mark lc_id="1VXObrdd7N">
+                  <el-header class="header" lc-mark lc_id="QKfTRdpP9t">Header</el-header>
+                  <el-main class="main" lc-mark lc_id="CEww9LuokJ">Main</el-main>
               </el-container>
-              <el-container lc-mark lc_id="Cepn7MKmdS">
-                  <el-header lc-mark lc_id="dtyUqSajiv">Header</el-header>
-                  <el-main lc-mark lc_id="NWEju0XOHJ">Main</el-main>
-                  <el-footer lc-mark lc_id="1LcIZWBTV/">Footer</el-footer>
+              <el-container class="container" lc-mark lc_id="Cepn7MKmdS">
+                  <el-header class="header" lc-mark lc_id="dtyUqSajiv">Header</el-header>
+                  <el-main class="main" lc-mark lc_id="NWEju0XOHJ">Main</el-main>
+                  <el-footer class="footer" lc-mark lc_id="1LcIZWBTV/">Footer</el-footer>
               </el-container>
-              <el-container lc-mark lc_id="birpu7Uiq1">
-                  <el-aside lc-mark width="200px" lc_id="1Lf7a0a0ph">Aside</el-aside>
-                  <el-main lc-mark lc_id="9KptQSz3+u">Main</el-main>
+              <el-container class="container" lc-mark lc_id="birpu7Uiq1">
+                  <el-aside class="aside" lc-mark width="200px" lc_id="1Lf7a0a0ph">Aside</el-aside>
+                  <el-main class="main" lc-mark lc_id="9KptQSz3+u">Main</el-main>
               </el-container>
-              <el-container lc-mark lc_id="eaV4iGUz96">
-                  <el-header lc-mark lc_id="TaCD08NSSP">Header</el-header>
-                  <el-container lc_id="5J+gD0iEvI">
-                      <el-aside lc-mark width="200px" lc_id="FRRvlM/Cfr">Aside</el-aside>
-                      <el-main lc-mark lc_id="lcw3QuiEZe">Main</el-main>
+              <el-container class="container" lc-mark lc_id="eaV4iGUz96">
+                  <el-header class="header" lc-mark lc_id="TaCD08NSSP">Header</el-header>
+                  <el-container class="container" lc_id="5J+gD0iEvI">
+                      <el-aside class="aside" lc-mark width="200px" lc_id="FRRvlM/Cfr">Aside</el-aside>
+                      <el-main class="main" lc-mark lc_id="lcw3QuiEZe">Main</el-main>
                   </el-container>
               </el-container>
-              <el-container lc-mark lc_id="PLqrqKhgA7">
-                  <el-header lc-mark lc_id="tmHiJevIsa">Header</el-header>
-                  <el-container lc_id="qS1KC1cfri">
-                      <el-aside lc-mark width="200px" lc_id="CzDDLIlPIB">Aside</el-aside>
-                      <el-container lc_id="fSXNZUdZ/f">
-                          <el-main lc-mark lc_id="wc1jD3bDoT">Main</el-main>
-                          <el-footer lc-mark lc_id="SjJpHf6a7g">Footer</el-footer>
+              <el-container class="container" lc-mark lc_id="PLqrqKhgA7">
+                  <el-header class="header" lc-mark lc_id="tmHiJevIsa">Header</el-header>
+                  <el-container class="container" lc_id="qS1KC1cfri">
+                      <el-aside class="aside" lc-mark width="200px" lc_id="CzDDLIlPIB">Aside</el-aside>
+                      <el-container class="container" lc_id="fSXNZUdZ/f">
+                          <el-main class="main" lc-mark lc_id="wc1jD3bDoT">Main</el-main>
+                          <el-footer class="footer" lc-mark lc_id="SjJpHf6a7g">Footer</el-footer>
                       </el-container>
                   </el-container>
               </el-container>
-              <el-container lc-mark lc_id="ycgi9Z8Kny">
-                  <el-aside lc-mark width="200px" lc_id="r/EjWyjczJ">Aside</el-aside>
-                  <el-container lc_id="NqJ8JL820i">
-                      <el-header lc-mark lc_id="XxixXzG8a2">Header</el-header>
-                      <el-main lc-mark lc_id="s39II6LC/4">Main</el-main>
+              <el-container class="container" lc-mark lc_id="ycgi9Z8Kny">
+                  <el-aside class="aside" lc-mark width="200px" lc_id="r/EjWyjczJ">Aside</el-aside>
+                  <el-container class="container" lc_id="NqJ8JL820i">
+                      <el-header class="header" lc-mark lc_id="XxixXzG8a2">Header</el-header>
+                      <el-main class="main" lc-mark lc_id="s39II6LC/4">Main</el-main>
                   </el-container>
               </el-container>
-              <el-container lc-mark lc_id="JYPHz0bZMF">
-                  <el-aside lc-mark width="200px" lc_id="qRJK56Q74V">Aside</el-aside>
-                  <el-container lc_id="c3KN/J7Yi2">
-                      <el-header lc-mark lc_id="GDfxqJ0R3d">Header</el-header>
-                      <el-main lc-mark lc_id="Zx/63VU8p0">Main</el-main>
-                      <el-footer lc-mark lc_id="BLY1vTH5li">Footer</el-footer>
+              <el-container class="container" lc-mark lc_id="JYPHz0bZMF">
+                  <el-aside class="aside" lc-mark width="200px" lc_id="qRJK56Q74V">Aside</el-aside>
+                  <el-container class="container" lc_id="c3KN/J7Yi2">
+                      <el-header class="header" lc-mark lc_id="GDfxqJ0R3d">Header</el-header>
+                      <el-main class="main" lc-mark lc_id="Zx/63VU8p0">Main</el-main>
+                      <el-footer class="footer" lc-mark lc_id="BLY1vTH5li">Footer</el-footer>
                   </el-container>
               </el-container>
           </div>
@@ -98,8 +98,8 @@ export default {
   },
   methods: {},
 };  </script>
-  <style scoped>.el-header,
-.el-footer {
+  <style scoped>.header,
+.footer {
   background-color: #b3c0d1;
   color: #333;
   text-align: center;
@@ -108,7 +108,7 @@ export default {
   margin: 2px;
 }
 
-.el-aside {
+.aside {
   background-color: #d3dce6;
   color: #333;
   text-align: center;
@@ -117,7 +117,7 @@ export default {
   margin: 2px;
 }
 
-.el-main {
+.main {
   background-color: #e9eef3;
   color: #333;
   text-align: center;
@@ -126,16 +126,16 @@ export default {
   margin: 2px;
 }
 
-body > .el-container {
+body > .container {
   margin-bottom: 40px;
 }
 
-.el-container:nth-child(5) .el-aside,
-.el-container:nth-child(6) .el-aside {
+.container:nth-child(5) .aside,
+.container:nth-child(6) .aside {
   min-height: 260px;
 }
 
-.el-container:nth-child(7) .el-aside {
+.container:nth-child(7) .aside {
   min-height: 320px;
   margin-bottom: 0 !important;
   margin: 2px;

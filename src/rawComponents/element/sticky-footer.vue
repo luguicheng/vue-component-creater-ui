@@ -1,7 +1,7 @@
   <template lc_id="CNCKvjgnfm">
       <div lc_id="2IZrBBw4Li">
           <div class="demonstration-element" lc_id="wcV8rb1pr2">StickyFooter 贴底布局</div>
-          <div class="sticky-footer" lc-mark lc_id="JGiZv7nfYG">
+          <div class="sticky.footer2" lc-mark lc_id="JGiZv7nfYG">
               <div class="wrapper" lc_id="e6MPCpUAMJ">
                   <div class="content" lc_id="lECVnK8QXT">内容区域</div>
                   <div class="footer" lc_id="XW6fdOAMIj">底部区域</div>
@@ -23,7 +23,7 @@ export default {
   beforeDestroy() {},
   methods: {},
 };  </script>
-  <style scoped lang="scss">.sticky-footer {
+  <style scoped lang="scss">.sticky.footer2 {
   height: 300px;
 }
 .wrapper {
