@@ -122,7 +122,7 @@
                           </div>
                           <div lc-mark class="clip-card" lc_id="6YIF2wxa6i">
                               <div class="clipped" style="width:150px;height:90px;background:#e0e0e0" lc_id="SZeRFhkYDY">
-                                  <el-image lc-mark :src="url4" fit="cover" ></el-image>
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="69BfW7yGoS"></el-image>
                               </div>
                               <div lc_id="BJqDGBFXrY">
                                   <div class="ellipsis light" lc_id="kpRPSwMrFy">简介简介</div>
@@ -131,7 +131,7 @@
                           </div>
                           <div lc-mark class="clip-card" lc_id="KQ0pJXooeB">
                               <div class="clipped2" style="width:150px;height:90px;background:#e0e0e0" lc_id="MkBPKeNUV/">
-                                  <el-image lc-mark :src="url4" fit="cover" ></el-image>
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="7o9aTVugrb"></el-image>
                               </div>
                               <div lc_id="+ITGt2Rwb/">
                                   <div class="ellipsis light" lc_id="4EO7i1KS7i">简介简介</div>
@@ -140,7 +140,7 @@
                           </div>
                           <div lc-mark class="clip-card" lc_id="5HFwGSCHXc">
                               <div class="clipped3" style="width:150px;height:90px;background:#e0e0e0" lc_id="r5VZWW7Nmt">
-                                  <el-image lc-mark :src="url4" fit="cover" ></el-image>
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="UN3bYMDEsn"></el-image>
                               </div>
                               <div lc_id="7c/T75rFMi">
                                   <div class="ellipsis light" lc_id="+lWjA8lP47">简介简介</div>
@@ -149,7 +149,7 @@
                           </div>
                           <div lc-mark class="clip-card" lc_id="gKoZZCcG/f">
                               <div class="clipped4" style="width:150px;height:90px;background:#e0e0e0" lc_id="d/TZnFGj2K">
-                                  <el-image lc-mark :src="url4" fit="cover" ></el-image>
+                                  <el-image lc-mark :src="url4" fit="cover" lc_id="yDs2k7TZRs"></el-image>
                               </div>
                               <div lc_id="MSxiDxMLck">
                                   <div class="ellipsis light" lc_id="obZWjxJZmR">简介简介</div>
@@ -157,10 +157,8 @@
                               </div>
                           </div>
                       </div>
-                      <div class="clipped-curve" style="width:100%;height:280px;border-radius:5px;" lc_id="SZeRFhkYDY">
-                      </div>
-                      <div class="clipped-curve-180" style="width:100%;height:280px;border-radius:5px;" lc_id="SZeRFhkYDY">
-                      </div>
+                      <div class="clipped-curve" style="width:100%;height:280px;border-radius:5px;" lc_id="SZeRFhkYDY"></div>
+                      <div class="clipped-curve-180" style="width:100%;height:280px;border-radius:5px;" lc_id="SZeRFhkYDY"></div>
                       <div class="demonstration-element" lc_id="we1TgJSC8u">固定-自适应</div>
                       <div lc-mark class="flex" style="margin-bottom: 10px" lc_id="+8CPVRmpwh">
                           <div lc-mark class="flex-item" style="width: 150px" lc_id="vmmdJIKv3b"></div>
@@ -292,13 +290,12 @@
                   </td>
               </tr>
           </table>
-
-          <svg width="0" height="0" class="ps-absolute">
-            <defs>
-              <clipPath id="curve" clipPathUnits="objectBoundingBox">
-                  <path d="M0,0 H1 V0.988 a0.007,0.012,0,0,1,-0.009,0.011 C0.955,0.983,0.802,0.925,0.501,0.925 C0.2,0.925,0.045,0.984,0.009,1 A0.007,0.012,0,0,1,0,0.988"></path>
-              </clipPath>
-            </defs>
+          <svg width="0" height="0" class="ps-absolute" lc_id="SefSuRzP4k">
+              <defs lc_id="C5PGPpX2Xs">
+                  <clippath id="curve" clippathunits="objectBoundingBox" lc_id="VLj9aWMGMU">
+                      <path d="M0,0 H1 V0.988 a0.007,0.012,0,0,1,-0.009,0.011 C0.955,0.983,0.802,0.925,0.501,0.925 C0.2,0.925,0.045,0.984,0.009,1 A0.007,0.012,0,0,1,0,0.988" lc_id="CHoBvevDk6"></path>
+                  </clippath>
+              </defs>
           </svg>
       </div>
   </template>
@@ -629,5 +626,4 @@ export default {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: hsl(209,100%,26%);
-}
-</style>
+}</style>
